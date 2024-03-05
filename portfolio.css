@@ -1,0 +1,114 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  display: flex;
+  
+  justify-content: end;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  margin: 5px;
+}
+.container_nav {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+.logo {
+  justify-content: start;
+}
+
+.img-section {
+  background-image: url(smiling-man-with-headphones.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  position: top;
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.image-container {
+  display: flex;
+  
+  
+}
+.cont_3{
+ display: flex;
+ justify-content: space-around;
+  
+}
+
+.bck{
+  background-color: blue;
+}
+
+.sect_4{
+  display: flex;
+  padding: 10px;
+  text-align: center;
+}
+
+.review{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.box{
+  border-style: solid;
+  border-color: grey;
+}
+
+.footer{
+  background-color: blue;
+}
+.last{
+  margin-top: 30px;
+  display: flex;
+  box-shadow: inset;
+}
+
+.footer_elem{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.foot_terms{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+
+
+
+
+
