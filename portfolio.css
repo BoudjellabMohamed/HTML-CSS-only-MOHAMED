@@ -1,15 +1,16 @@
 body {
   padding: 0px;
   margin: 0px;
+  width: 100vw;
 }
 
 nav ul {
   list-style: none;
   padding: 10px;
-  color: white;
+
   margin: 10px;
   display: flex;
-  
+
   justify-content: end;
 }
 
@@ -19,13 +20,10 @@ nav li {
   margin: 5px;
 }
 .container_nav {
-  background-color: blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
-
 
 .logo {
   justify-content: start;
@@ -36,6 +34,9 @@ nav li {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  padding: 10px;
+  border: solid;
+  border-color: grey;
 
   display: flex;
   align-items: center;
@@ -44,71 +45,76 @@ nav li {
   position: top;
 }
 
-.products{
+.products {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-
 .image-container {
   display: flex;
-  
-  
+  justify-content: space-around;
+  gap: 1%;
 }
-.cont_3{
- display: flex;
- justify-content: space-around;
+
+.photo {
+  background-image: url(j1.jpg);
+}
+.cont_3 {
+  display: flex;
+  background-image: url(j1.jpg);
+  background-position: center center;
+  background-size: cover;
+  
+
+}
+
+.cont_3 h1 {
+  padding: 5%;
+}
+
+.bck {
+  background-color: #002d69;
   
 }
 
-.bck{
-  background-color: blue;
-}
-
-.sect_4{
+.sect_4 {
   display: flex;
   padding: 10px;
   text-align: center;
 }
 
-.review{
+.review {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
 
-.box{
+.box {
   border-style: solid;
   border-color: grey;
 }
 
-.footer{
-  background-color: blue;
+.footer {
+  background-color: #b8e0ef;  
+  display: flex;
+  flex-direction: column;
 }
-.last{
+.last {
   margin-top: 30px;
   display: flex;
   box-shadow: inset;
 }
 
-.footer_elem{
+.footer_elem {
   display: flex;
   align-items: start;
   justify-content: start;
 }
 
-.foot_terms{
+.foot_terms {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-
 }
-
-
-
-
-
-
